@@ -1,0 +1,26 @@
+.grid-contenair{
+    display : grid;
+    width: 80%;
+    margin: 100px auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+button{
+    border-left: 5px solid #cb4335;
+    background-color: #515a5a;
+}
+.bl{
+    border-left: none;
+}
+.bt{
+    border-top: 5px solid #cb4335;
+}
+.br{
+    border-right: none;
+}
+.bb{
+    border-bottom: 5px solid #cb4335;
+}
+.a{
+    border-right: 5px solid #cb4335;
+}
